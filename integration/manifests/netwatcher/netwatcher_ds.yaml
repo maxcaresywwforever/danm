@@ -20,6 +20,7 @@ spec:
       containers:
         - name: netwatcher
           image: netwatcher
+          imagePullPolicy: IfNotPresent
           securityContext:
             capabilities:
               add:
